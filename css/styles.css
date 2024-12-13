@@ -71,7 +71,7 @@ main {
 	flex-direction: column;
 	justify-content: space-between;
 	/* padding: 30px; */
-	padding: 30px 0 0 30px;
+	/* padding: 30px 0 0 30px; */
 	background: url('../images/Background_decor.svg') no-repeat;
 }
 
@@ -80,7 +80,6 @@ main {
 	width: 285px; 
 	display: flex; 
 	flex-direction: row; 
-	justify-content: space-between;
 	padding-bottom: 30px;
 	align-items: flex-end;
 	color: #394150;
@@ -101,13 +100,14 @@ main {
 	height: 285px;
 	width: 285px;
 	position: relative;
+	background: url('../images/Gradient.svg') no-repeat;
 }
 
 .person-image {
-	/* width: 100%;
-	height: 285px; */
-	width: 285px;
-	height: 285px;
+	max-width: 285px;
+	max-height: 285px;
+	width: 100%;
+	height: 100%;
 }
 
 .gradient-image {
@@ -117,6 +117,10 @@ main {
 	width: 100%;
 	height: 100%;
 	z-index: 1;
+	max-width: 285px;
+	max-height: 285px;
+	width: 100%;
+	height: 100%;
 }
 
 .info-container {
@@ -147,10 +151,10 @@ main {
 	background-color: #86E7D4;
 }
 
-.square {
+/* .square {
 	width: 285px;
 	height: 285px;
-}
+} */
 
 img {
 	width: 285px;
@@ -158,51 +162,11 @@ img {
 }
 
 
-
-
-
-
-
-
- 
-.meet-team2 {
-	max-width: 1140px;
-	width: 100%;
-	height: 870px;
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	border-radius: 25px;
-	overflow: hidden;
-	margin-top: 70px;
-	background: url('../images/Background_decor.svg') no-repeat;
-	background-color: #F3F4F6;
-}
-
 @media screen and (max-width: 1024px) {
 	.meet-team2 {
 		max-width: 855px;
 		width: 100%;
+		height: 870px;
+		flex-direction: row;
 	}
 }
-
-/*
-.data-section2, .image-section2 {
-	width: 50%;
-	height: 285px;
-}
-
-.data-section2 {
-	display: flex;
-	flex-direction: column;
-	padding: 30px 0 0 30px;
-}
-
-.square2 {
-	width: 285px;
-	height: 285px;
-	position: relative;
-	margin-top: auto;
-	margin-left: 0;
-} 
-*/
