@@ -76,7 +76,7 @@ main {
 
 .see-all-members {
 	max-height: 285px; 
-	width: 284px; 
+	width: 100%;
 
 	display: flex; 
 	flex-direction: row; 
